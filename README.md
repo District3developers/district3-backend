@@ -29,3 +29,22 @@ This template is an opinionated React starter pack to build any dashboard using 
 - `pnpm dev` for development (it opens port 3000).
 - `pnpm test` to run lints and tests.
 - `firebase deploy` to build, package and deploy your web app to Firebase.
+
+authentication confonfig
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyB03s2b--DGzArCXiGN_-BASUKF0rKyHDE",
+  authDomain: "district3-backend.firebaseapp.com",
+  projectId: "district3-backend",
+  storageBucket: "district3-backend.appspot.com",
+  messagingSenderId: "578577272151",
+  appId: "1:578577272151:web:f777b6a0fb288250b60212"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
